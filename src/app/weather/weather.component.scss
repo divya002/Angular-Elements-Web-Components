@@ -1,7 +1,7 @@
 $border-radius: 20px;
 .error {
   padding: 10px;
-    background: white;
+    background: white !important;;
     width: 100%;
     margin-bottom: 10px;
     color: red;
@@ -28,7 +28,7 @@ $border-radius: 20px;
     height: 60%;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
-    background: rgb(252, 224, 68);
+    background: rgb(252, 224, 68) !important;
     font-family: weathericons;
     display: flex;
     align-items: center;
@@ -47,7 +47,7 @@ $border-radius: 20px;
     border-bottom-left-radius: $border-radius;
     display: flex;
     align-items: center;
-    color: white;
+    color: white !important;;
     
     .temperature{
       flex: 0 0 40%;
@@ -80,12 +80,12 @@ $border-radius: 20px;
   .date{
     flex: 0 0 30%;
     height: 40%;
-    background: #70C1B3;
+    background: #70C1B3 !important;;
     border-bottom-right-radius: $border-radius;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: white;
+    color: white !important;
     font-size: 30px;
     font-weight: 800;
   }
